@@ -1,5 +1,6 @@
 // Aquí está todo el contenido de la web. Para actualizarla, edita solo este fichero.
 // Sustituye los textos entre [corchetes] y los enlaces "#" por los tuyos.
+import cvPdf from "./media/CV_KhadijaElHady.pdf";
 
 export const profile = {
   name: "Khadija El Hady",
@@ -15,7 +16,7 @@ export const profile = {
   links: {
     github: "https://github.com/kelhadya1999-bit?tab=repositories",
     linkedin: "https://www.linkedin.com/in/khadija-el-hady-71880312b/",
-    cv: "",
+    cv: cvPdf,
     email: "kelhadya1999@gmail.com",
   },
 };
