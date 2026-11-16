@@ -1,3 +1,68 @@
 html { scroll-behavior: smooth; scroll-padding-top: 70px; }
 section { padding: 3.5rem 0; border-top: 1px solid var(--bs-border-color); }
 .section-title { font-size: .8rem; letter-spacing: .12em; text-transform: uppercase; color: var(--bs-secondary-color); margin-bottom: 1.5rem; }
+
+/* ---------- Color de acento: verde ---------- */
+:root,
+[data-bs-theme="light"] {
+  --accent: #0b6b63;
+  --accent-hover: #095851;
+  --accent-active: #084a44;
+  --accent-rgb: 11, 107, 99;
+  --accent-text: #ffffff;
+  --tag-bg: #e3efed;
+
+  --bs-link-color: #0b6b63;
+  --bs-link-color-rgb: 11, 107, 99;
+  --bs-link-hover-color: #095851;
+  --bs-link-hover-color-rgb: 9, 88, 81;
+}
+
+[data-bs-theme="dark"] {
+  --accent: #4fc3b5;
+  --accent-hover: #6fd3c7;
+  --accent-active: #8adcd2;
+  --accent-rgb: 79, 195, 181;
+  --accent-text: #0a1413;
+  --tag-bg: #1d3030;
+
+  --bs-link-color: #4fc3b5;
+  --bs-link-color-rgb: 79, 195, 181;
+  --bs-link-hover-color: #6fd3c7;
+  --bs-link-hover-color-rgb: 111, 211, 199;
+}
+
+.btn-primary {
+  --bs-btn-bg: var(--accent);
+  --bs-btn-border-color: var(--accent);
+  --bs-btn-color: var(--accent-text);
+  --bs-btn-hover-bg: var(--accent-hover);
+  --bs-btn-hover-border-color: var(--accent-hover);
+  --bs-btn-hover-color: var(--accent-text);
+  --bs-btn-active-bg: var(--accent-active);
+  --bs-btn-active-border-color: var(--accent-active);
+  --bs-btn-active-color: var(--accent-text);
+  --bs-btn-focus-shadow-rgb: var(--accent-rgb);
+}
+
+.btn-outline-primary {
+  --bs-btn-color: var(--accent);
+  --bs-btn-border-color: var(--accent);
+  --bs-btn-hover-bg: var(--accent);
+  --bs-btn-hover-border-color: var(--accent);
+  --bs-btn-hover-color: var(--accent-text);
+  --bs-btn-active-bg: var(--accent-hover);
+  --bs-btn-active-border-color: var(--accent-hover);
+  --bs-btn-active-color: var(--accent-text);
+  --bs-btn-focus-shadow-rgb: var(--accent-rgb);
+}
+
+.badge.text-bg-secondary {
+  background-color: var(--tag-bg) !important;
+  color: var(--bs-body-color) !important;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link:focus-visible {
+  color: var(--accent);
+}

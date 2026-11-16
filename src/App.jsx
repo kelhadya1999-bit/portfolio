@@ -18,6 +18,20 @@ export default function App() {
           ))}
         </Section>
 
+        <Section id="experiencia" title="Experiencia">
+          {experience.map((e) => (
+            <div key={e.company} className="mb-4">
+              <h3 className="h6 mb-0">{e.title} · {e.company}</h3>
+              <small className="text-body-secondary">{e.period}</small>
+              <ul className="mt-2 mb-0">
+                {e.points.map((p) => (
+                  <li key={p}>{p}</li>
+                ))}
+              </ul>
+            </div>
+          ))}
+        </Section>
+
         <Section id="proyectos" title="Proyectos">
           <div className="d-flex flex-column gap-3">
             {projects.map((p) => (
@@ -35,16 +49,6 @@ export default function App() {
               </div>
             ))}
           </div>
-        </Section>
-
-        <Section id="experiencia" title="Experiencia">
-          {experience.map((e) => (
-            <div key={e.title}>
-              <h3 className="h6 mb-0">{e.title} · {e.company}</h3>
-              <small className="text-body-secondary">{e.period}</small>
-              <p className="mt-2 mb-0">{e.text}</p>
-            </div>
-          ))}
         </Section>
 
         <Section id="formacion" title="Formación">
