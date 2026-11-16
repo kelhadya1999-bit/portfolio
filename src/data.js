@@ -13,10 +13,10 @@ export const profile = {
     "Ahora me estoy especializando en desarrollo backend con Java, Spring Boot y microservicios. [Añade una frase sobre qué buscas.]",
   ],
   links: {
-    github: "#",
-    linkedin: "#",
-    cv: "#",
-    email: "[tu-correo@ejemplo.com]",
+    github: "https://github.com/kelhadya1999-bit?tab=repositories",
+    linkedin: "https://www.linkedin.com/in/khadija-el-hady-71880312b/",
+    cv: "",
+    email: "kelhadya1999@gmail.com",
   },
 };
 
