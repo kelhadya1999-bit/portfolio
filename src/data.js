@@ -6,7 +6,7 @@ export const profile = {
   intro:
     "3 años de experiencia como técnica de software y consultora ERP (Sage), con C#/.NET y Power BI. Ahora amplío mi perfil backend con Java, Spring Boot y microservicios.",
   location: "Manresa, Barcelona",
-  languages: "Catalán · Castellano · Árabe · Inglés B1",
+  languages: "Catalán · Castellano · Árabe · Inglés B2",
   about: [
     "Técnica superior en Desarrollo de Aplicaciones Multiplataforma. Desde 2023 trabajo como técnica de software y consultora ERP: desarrollo APIs REST y tareas programadas en C#/.NET, programo y personalizo Sage con su lenguaje propio, migro datos y creo informes complejos con Power BI.",
     "He completado el curso «Microservicios y APIs REST con Spring Boot, OAuth2 y Docker» para retomar Java. Busco una oportunidad como desarrolladora de software donde seguir creciendo.",
