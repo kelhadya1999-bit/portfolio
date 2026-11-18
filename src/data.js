@@ -31,7 +31,21 @@ export const projects = [
       "Entorno completo con Docker Compose.",
     ],
     tags: ["Java 21", "Spring Boot", "Spring Cloud", "Keycloak", "PostgreSQL", "Docker", "Maven"],
-    links: [{ label: "Código en GitHub", url: "https://github.com/kelhadya1999-bit?tab=repositories" }],
+    links: [{ label: "Código en GitHub", url: "https://github.com/kelhadya1999-bit/paymentchain" }],
+  },
+  {
+    title: "API de gestión de pedidos y stock (en desarrollo)",
+    status: "En desarrollo",
+    description:
+      "Proyecto en curso: API REST para un distribuidor que gestiona clientes, productos, pedidos de compra y venta, líneas de pedido y existencias. Aplica mi experiencia en ERP y migración de datos.",
+    points: [
+      "ASP.NET Core Web API con controladores, DTOs, validaciones, AutoMapper y patrón repositorio.",
+      "Entity Framework Core (code first) con SQL Server; filtrado, ordenación y paginación.",
+      "Autenticación JWT con roles mediante ASP.NET Core Identity; documentación con Swagger y pruebas con Postman.",
+      "Previsto: importación de datos desde CSV/Excel, pruebas con xUnit, Docker, GitHub Actions e informe en Power BI.",
+    ],
+    tags: ["C#", ".NET 10", "ASP.NET Core", "EF Core", "SQL Server", "JWT", "Swagger"],
+    links: [{ label: "Código en GitHub", url: "https://github.com/kelhadya1999-bit/distribuidoraApi" }],
   },
   {
     title: "Este portfolio",
